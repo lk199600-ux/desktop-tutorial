@@ -1,5 +1,8 @@
-# Welcome to GitHub Desktop!
+# 비서실 · Office Dashboard
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+폰이나 PC 브라우저에서 여는 개인용 비서실 대시보드입니다.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+- 주소: https://lk199600-ux.github.io/desktop-tutorial/
+- 화면에 보이는 내용은 모두 **AES-GCM 암호문**으로 저장되어 있습니다. 이 저장소에는 비밀번호도, 평문 데이터도 들어 있지 않습니다.
+- 페이지에서 비밀번호를 입력하면 접속한 기기의 브라우저 안에서만 복호화되어 표시됩니다. (PBKDF2-SHA256 310,000회 → AES-256-GCM)
+- 외부 스크립트·폰트·추적 없음. 정적 페이지 하나와 오피스 일러스트 한 장이 전부입니다.
